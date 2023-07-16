@@ -124,12 +124,22 @@ background: #FF900E;
 width: 342px;
 color: #fff;
 padding: 40px;
+text-align: center;
+position: relative;
+bottom: 100px;
 }
 .ten-year-badge h2{
     font-size: 4rem;
+    margin: 0;
+  
+}
+.features-img img {
+    margin-left: 85px;
+    height: 90%;
 }
 .ten-year-badge p{
-    font-size: 25px;
+    font-size: 1.5rem;
+    
 }
 /* Facts start */
 
@@ -175,7 +185,13 @@ padding: 40px;
     header{
         padding: 20px;
     }
+    .features-img img {
+        width: 90%;
+        margin-left: 0;
+    }
+
     nav,
+    .features-contain,
     .team-conatiner,
     .facts-card-conaiter,
     .sponsors-img-conatiner
@@ -192,7 +208,10 @@ padding: 40px;
     .facts-card-conaiter .card{
         margin-top: 30px;
     }
-    
+    .ten-year-badge{
+        position: static;
+        width: 300px;
+    }
  }
  /* Medium devices */
 
@@ -201,6 +220,7 @@ padding: 40px;
         padding: 50px;
     }
     nav,
+    .features-contain,
     .team-conatiner,
     .sponsors-img-conatiner
     {
